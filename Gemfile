@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gemspec
 
 # Rack 2.0.x doesn't work on < Ruby 2.2
-gem 'rack', '< 2.0'
+gem 'rack', '<= 2.2.3'
 gem 'mime-types', '~> 3.0'
 
 group :development do
