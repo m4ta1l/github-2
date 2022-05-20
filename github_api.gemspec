@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "bundler",  ">= 1.5.0"
   gem.add_development_dependency "rake"
-  gem.add_development_dependency "cucumber", "~> 2.1"
+  gem.add_development_dependency "cucumber", "~> 8.0"
   gem.add_development_dependency "rspec",    "~> 3"
   gem.add_development_dependency "rspec-its","~> 1"
   gem.add_development_dependency "vcr",      "~> 3.0.3"
